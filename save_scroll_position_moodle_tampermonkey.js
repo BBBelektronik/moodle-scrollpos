@@ -2,12 +2,10 @@
 // @name            Save Scroll Position in Moodle Boost Design
 // @namespace       Moodle
 // @author          ScN
-// @version         2.3
+// @version         2.4
 // @description     Saves the scroll position in Moodle courses with Moodle using the new Boost design. This simplifies navigating into Moodle items and returning to the same scroll location upon back navigation.
 // @match           https://moodle.bbbaden.ch/course/view.php*
-// @downloadURL     https://raw.githubusercontent.com/BBBelektronik/moodle-scrollpos/main/save_scroll_position_moodle_tampermonkey.js
-// @updateURL       https://raw.githubusercontent.com/BBBelektronik/moodle-scrollpos/main/save_scroll_position_moodle_tampermonkey.js
-// @source          https://github.com/BBBelektronik/moodle-scrollpos
+// @hompageURL      https://github.com/BBBelektronik/moodle-scrollpos
 // @grant           none
 // ==/UserScript==
 
@@ -30,11 +28,12 @@ function getCourseIdFromURL() {
 
 // Get the current scroll position from a Moodle Course-Page
 function getSessionScrollPosition(courseId) {
+    console.log("Lade ScrollPosition aus sessionStorage mit key", key)
     var key = "scrollPosition_" + courseId;
     return sessionStorage.getItem(key);
 }
 
-// Funktion zum Speichern der Scrollposition für einen bestimmten Kurs
+// Save the  scroll position in session storage with a unique key for each Moodle Course
 function saveSessionScrollPosition(courseId) {
     var key = "scrollPosition_" + courseId;
     sessionStorage.setItem(key, page.scrollTop);
@@ -43,7 +42,6 @@ function saveSessionScrollPosition(courseId) {
 
 // Restore scroll position in Moodle course if a stored position is available
 function restoreSessionScrollPosition(courseId) {
-    var key = "scrollPosition_" + courseId;
     var storedPosition = getSessionScrollPosition(courseId);
     if (storedPosition !== null) {
         page.scrollTo(0, storedPosition);
