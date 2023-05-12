@@ -19,7 +19,7 @@ Auf Firefox scheint [Greasemonkey](https://addons.mozilla.org/de/firefox/addon/g
 
 2. Zuerst diesen Link und danach im Fenster, das automatisch aufgeht, auf `Installieren` klicken:
 
-    [https://raw.githubusercontent.com/BBBelektronik/moodle-scrollpos/main/moodle_scrollpos.user.js](https://raw.githubusercontent.com/BBBelektronik/moodle-scrollpos/main/moodle_scrollpos.user.js)
+    <a target="_blank" href="https://raw.githubusercontent.com/BBBelektronik/moodle-scrollpos/main/moodle_scrollpos.user.js">https://raw.githubusercontent.com/BBBelektronik/moodle-scrollpos/main/moodle_scrollpos.user.js</a>
 
     <img src="images/install.png" width=400>
 
