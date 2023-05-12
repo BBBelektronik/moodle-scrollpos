@@ -1,11 +1,11 @@
-# moodle-scrollpos
+# Moodle Scroll-Position speichern
 [JS-Skript](moodle_scrollpos.user.js) für [Tampermonkey](https://www.tampermonkey.net/) oder [Greasemonkey](https://www.greasespot.net/) um in Moodle-Kursen (im Boost Design) die Scroll-Position zu speichern und beim erneuten Laden der Seite wiederherzustellen.
 <details><summary><b>⚠️ Sicherheitswarnung ⚠️</b></summary> Tampermonkey und Greasemonkey sind Browser-Erweiterungen, die auf Webseiten zusätzliche Skripte ausführen können. Dies kann auch bösartig genutzt werden, es sollten nur Skripte aus vertrauenswürdigen Quellen installiert werden! <a href="moodle_scrollpos.user.js">Das Skript, von dem hier die Rede ist</a>, wird nur auf Seiten mit der URL <code>https://moodle.bbbaden.ch/course/view.php*</code> ausgeführt. Das <code>*</code> steht dabei für eine beliebe Zahlen-, Buchstaben- oder Zeichenfolge. So wird das Skript beispielsweise auf <code>https://moodle.bbbaden.ch/course/view.php?id=42</code> auch ausgeführt.</details>
 
 ## Installation
 
 ### Hinweis zu Greasemonkey
-Auf Firefox scheint die [Erweiterung Greasemonkey](https://addons.mozilla.org/de/firefox/addon/greasemonkey/) zuverlässiger zu funktionieren als Tampermonkey. Grundsätzlich machen beide das Gleiche, auch der Installationsprozess gleich.
+Auf Firefox scheint [Greasemonkey](https://addons.mozilla.org/de/firefox/addon/greasemonkey/) zuverlässiger zu funktionieren als Tampermonkey. Grundsätzlich machen beide das Gleiche, auch der Installationsprozess gleich.
 
 ### Anleitung
 1. Erweiterung installieren
