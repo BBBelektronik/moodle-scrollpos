@@ -1,5 +1,5 @@
 # moodle-scrollpos
-[JS-Skript](save_scroll_position_moodle_tampermonkey.js) für Tampermonkey um in Moodle-Kursen (im Boost Design) die Scroll-Position zu speichern und wiederherzustellen.
+[JS-Skript](save_scroll_position_moodle_tampermonkey.js) für [Tampermonkey](https://www.tampermonkey.net/) um in Moodle-Kursen (im Boost Design) die Scroll-Position zu speichern und beim erneuten Laden der Seite wiederherzustellen.
 
 ## Installationsanleitung
 1. Tampermonkey Erweiterung installieren ([Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo), [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd?hl=de-DE&gl=CH), [Firefox](https://addons.mozilla.org/de/firefox/addon/tampermonkey/)).
