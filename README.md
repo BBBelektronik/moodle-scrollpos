@@ -7,8 +7,10 @@ JS-Skript für Tampermonkey um in Moodle-Kursen (im Boost Design) die Scroll-Pos
 2. Erweiterung anwählen (im Browser oben rechts, je nach Browser sieht es ein bisschen anderst aus, hier als Beispiel Edge), `Tampermonkey` anklicken:<br><img src="images/edge1_de.png" width="300">
 3. Dann im Tampermonkey Menu `Übersicht` auswählen:<br><img src="images/edge2_de.png" width="300">
 4. Den Tab `Hilfsmittel` auswählen:<br><img src="images/edge3_de.png" width="400">
-5. [Diesen Link](https://raw.githubusercontent.com/BBBelektronik/moodle-scrollpos/main/save_scroll_position_moodle_tampermonkey.js) in "Von URL importieren einfügen" und `Installieren` wählen:<br><img src="images/edge4_de.png" width="500"><br>
-**Achtung:** Stelle sicher, dass der Link wirklich auf die Website `https://raw.githubusercontent.com/BBBelektronik/...` führt!
+5. Diesen Link bei "Von URL importieren" und `Installieren` wählen:<br><img src="images/edge4_de.png" width="500"><br>
+  ````txt
+https://raw.githubusercontent.com/BBBelektronik/moodle-scrollpos/main/save_scroll_position_moodle_tampermonkey.js
+  ````
 6. Wenn das in etwa so aussieht wie auf dem Bild unten auf `Installieren` drücken:<br><img src="images/edge5_de.png" width="400">
 7. Auf Moodle gehen und ausprobieren 😊 Wenn alles geklappt hat, sollte nun in jedem Moodle-Kurs die Scroll-Position bei einem neuen Laden der Seite wiederhergestellt werden.
 
