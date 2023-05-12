@@ -2,7 +2,7 @@
 // @name            Save Scroll Position in Moodle Boost Design
 // @namespace       Moodle
 // @author          ScN
-// @version         2.2.2
+// @version         2.3
 // @description     Saves the scroll position in Moodle courses with Moodle using the new Boost design. This simplifies navigating into Moodle items and returning to the same scroll location upon back navigation.
 // @match           https://moodle.bbbaden.ch/course/view.php*
 // @downloadURL     https://raw.githubusercontent.com/BBBelektronik/moodle-scrollpos/main/save_scroll_position_moodle_tampermonkey.js
@@ -46,7 +46,7 @@ function restoreSessionScrollPosition(courseId) {
     var key = "scrollPosition_" + courseId;
     var storedPosition = getSessionScrollPosition(courseId);
     if (storedPosition !== null) {
-        page.scrollTop = storedPosition;
+        page.scrollTo(0, storedPosition);
         console.log("Scrollposition für Kurs", courseId, "wiederhergestellt:", storedPosition);
     }
 }
