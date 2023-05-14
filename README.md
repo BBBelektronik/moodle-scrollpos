@@ -30,4 +30,6 @@ Das Skript wurde erfolgreich getestet in
 * **Firefox** `113.0.1 (64-bit)`
 * **Vivaldi** `6.0.2979.18 (Stable channel) (64-bit)`
 * **Microsoft Edge** `113.0.1774.42 (Official build) (64-bit)`
-* **Google Chrome** `?`
+* **Google Chrome** `113.0.5672.93 (Official build) (64-Bit)`
+
+Das Skript sollte theoretisch auch auf allen anderen Browsern, die über die Erweiterung Tampermonkey verfügen, funktionieren. Soweit sind keine Fälle bekannt, wo das nicht zutrifft.
