@@ -5,7 +5,7 @@
 ## Installation
 
 ### Hinweis zu Greasemonkey
-Auf Firefox scheint [Greasemonkey](https://addons.mozilla.org/de/firefox/addon/greasemonkey/) zuverlässiger zu funktionieren als Tampermonkey. Grundsätzlich machen beide das Gleiche, auch der Installationsprozess gleich.
+Auf Firefox scheint [Greasemonkey](https://addons.mozilla.org/de/firefox/addon/greasemonkey/) zuverlässiger zu funktionieren als Tampermonkey. Grundsätzlich machen beide das Gleiche, auch der Installationsprozess ist gleich.
 
 ### Anleitung
 1. Erweiterung installieren
@@ -22,6 +22,8 @@ Auf Firefox scheint [Greasemonkey](https://addons.mozilla.org/de/firefox/addon/g
     <a target="_blank" href="https://raw.githubusercontent.com/BBBelektronik/moodle-scrollpos/main/moodle_scrollpos.user.js">https://raw.githubusercontent.com/BBBelektronik/moodle-scrollpos/main/moodle_scrollpos.user.js</a>
 
     <img src="images/install.png" width=400>
+    
+    **Hinweis:** Es kann sein, dass die Versionsnummer, die Beschreibung und der Skriptname vom Screenshot etwas abweicht. Bei Unsicherheit nochmal überprüfen, ob wirklich auch der richtige Link angeklickt wurde.
 
 3. Auf Moodle gehen und ausprobieren 😊 Wenn alles geklappt hat, sollte nun in jedem Moodle-Kurs die letzte Scroll-Position bei einem neuen Laden der Seite wiederhergestellt werden.
 
